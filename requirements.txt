@@ -1,2 +1,4 @@
 pytest
 sphinx
+black
+isort
