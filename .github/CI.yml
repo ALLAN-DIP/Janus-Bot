@@ -17,10 +17,10 @@ jobs:
       with:
         python-version: '3.7'
 
-    - name: "Build"
-      run: |
-        pip install -r requirements.txt
-        pip install -e .
+    # - name: "Build"
+    #  run: |
+    #    pip install -r requirements.txt
+    #    pip install -e .
     # - name: "Run tests"
     #   run: |
     #     pytest tests/utils_test.py
